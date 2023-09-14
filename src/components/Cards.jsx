@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-const Cards = ({card}) => {
+const Cards = ({card,addTitle}) => {
     return (
             <div className='bg-white px-4 py-6 rounded-lg'>
                 <img src={card.img_url} alt="" />
@@ -15,11 +15,12 @@ const Cards = ({card}) => {
                         <p>Credit : {card.time_hour}hr</p>  
                     </div>
                 </div>
-                <button className='bg-blue-500 w-full mt-4 text-white font-semibold py-1 rounded text-xl'>Select</button>
+                <button onClick={()=> addTitle(card.title)} className='bg-blue-500 w-full mt-4 text-white font-semibold py-1 rounded text-xl'>Select</button>
             </div>
     );
 };
 Cards.propTypes = {
-    card: PropTypes.object.isRequired
+    card: PropTypes.object.isRequired,
+    addTitle: PropTypes.func.isRequired,
 }
 export default Cards;
