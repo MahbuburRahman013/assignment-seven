@@ -8,6 +8,7 @@ const Container = () => {
    const [cards,setCards] = useState([]);
    const [titleArr,setTitleArr] = useState([]);
    const [totalPrice,setTotalPrice] = useState(0)
+   const [addHour,setAddHour] = useState(0)
 
 
 useEffect(()=>{
@@ -17,10 +18,17 @@ useEffect(()=>{
 },[])
 
 const addTitle = (data) =>{
-        if(!titleArr.includes(data.title)){
-            setTitleArr([...titleArr,data.title])
+    const newHour = addHour + data.time_hour;  
+        if(!titleArr.includes(data.title) && newHour < 20){
+            setTitleArr([...titleArr,data.title]);
             
-            setTotalPrice(data.fee + totalPrice)
+            setTotalPrice(data.fee + totalPrice);
+          
+            if(newHour < 20){
+                setAddHour(newHour);
+            }else{
+                toast('The time is over!!');
+            }
 
         }else{
             toast(`You have already added "${data.title}"`)
@@ -36,7 +44,7 @@ const addTitle = (data) =>{
             }
         </div>
         <div className="w-[25%] bg-white rounded-lg px-4 py-5 h-[70vh] overflow-auto">
-        <Cart titleArr={titleArr} totalPrice={totalPrice}></Cart>
+        <Cart titleArr={titleArr} totalPrice={totalPrice} addHour={addHour}></Cart>
         <ToastContainer></ToastContainer>
         </div>
        </div>
