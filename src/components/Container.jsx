@@ -7,8 +7,9 @@ import 'react-toastify/dist/ReactToastify.css';
 const Container = () => {
    const [cards,setCards] = useState([]);
    const [titleArr,setTitleArr] = useState([]);
-   const [totalPrice,setTotalPrice] = useState(0)
-   const [addHour,setAddHour] = useState(0)
+   const [totalPrice,setTotalPrice] = useState(0);
+   const [addHour,setAddHour] = useState(0);
+   const [lessHour,setLessHour] = useState(20);
 
 
 useEffect(()=>{
@@ -19,19 +20,16 @@ useEffect(()=>{
 
 const addTitle = (data) =>{
     const newHour = addHour + data.time_hour;  
-        if(!titleArr.includes(data.title) && newHour < 20){
+        if(!titleArr.includes(data.title) && newHour <= 20){
             setTitleArr([...titleArr,data.title]);
             
             setTotalPrice(data.fee + totalPrice);
           
-            if(newHour < 20){
-                setAddHour(newHour);
-            }else{
-                toast('The time is over!!');
-            }
+            setAddHour(newHour);
+            setLessHour(lessHour - data.time_hour )
 
         }else{
-            toast(`You have already added "${data.title}"`)
+            toast(`You have already added "${data.title}" or "Total Credit Hour" is over!!`)
         }    
 }
 
@@ -44,7 +42,7 @@ const addTitle = (data) =>{
             }
         </div>
         <div className="w-[25%] bg-white rounded-lg px-4 py-5 h-[70vh] overflow-auto">
-        <Cart titleArr={titleArr} totalPrice={totalPrice} addHour={addHour}></Cart>
+        <Cart titleArr={titleArr} totalPrice={totalPrice} addHour={addHour} lessHour={lessHour}></Cart>
         <ToastContainer></ToastContainer>
         </div>
        </div>
