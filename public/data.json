@@ -1,0 +1,66 @@
+[
+    {
+      "img_url": "https://i.ibb.co/qjs8TP5/Rectangle-2.png",
+      "title": "Introduction to Python Programming",
+      "description": "Learn the fundamentals of Python programming language and start building your own applications.",
+      "fee": 49.99,
+      "time_hour": 20
+    },
+    {
+      "img_url": "https://i.ibb.co/mv7bfmw/Rectangle-2-1.png",
+      "title": "Web Development with JavaScript and HTML/CSS",
+      "description": "Master the art of web development by learning JavaScript, HTML, and CSS.",
+      "fee": 59.99,
+      "time_hour": 30
+    },
+    {
+      "img_url": "https://i.ibb.co/rHVX8Kd/Rectangle-2-2.png",
+      "title": "Data Science with Python and Machine Learning",
+      "description": "Dive into the world of data science, machine learning, and data analysis using Python.",
+      "fee": 79.99,
+      "time_hour": 40
+    },
+    {
+      "img_url": "https://i.ibb.co/tL8ybLy/Rectangle-2-3.png",
+      "title": "Java Programming for Beginners",
+      "description": "Get started with Java programming and build a strong foundation in object-oriented programming.",
+      "fee": 49.99,
+      "time_hour": 25
+    },
+    {
+      "img_url": "https://i.ibb.co/GJ5xTCg/Rectangle-2-4.png",
+      "title": "Front-End Web Development with React",
+      "description": "Learn how to build dynamic and responsive web applications with React.",
+      "fee": 69.99,
+      "time_hour": 35
+    },
+    {
+      "img_url": "https://i.ibb.co/wwss8VF/Rectangle-2-5.png",
+      "title": "Backend Development with Node.js and Express",
+      "description": "Master server-side development with Node.js and Express framework.",
+      "fee": 59.99,
+      "time_hour": 30
+    },
+    {
+      "img_url": "https://i.ibb.co/TmT9pWk/Rectangle-2-6.png",
+      "title": "Mobile App Development with Flutter",
+      "description": "Create cross-platform mobile apps with Flutter and Dart programming language.",
+      "fee": 69.99,
+      "time_hour": 35
+    },
+    {
+      "img_url": "https://i.ibb.co/56XYHkb/Rectangle-3.png",
+      "title": "Database Design and SQL Fundamentals",
+      "description": "Learn the essentials of database design and SQL programming.",
+      "fee": 39.99,
+      "time_hour": 15
+    },
+    {
+      "img_url": "https://i.ibb.co/Fg6Gy34/Rectangle-3-1.png",
+      "title": "Machine Learning for Image Recognition",
+      "description": "Explore advanced machine learning techniques for image recognition and computer vision.",
+      "fee": 89.99,
+      "time_hour": 50
+    }
+  ]
+  
