@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Container = () => {
    const [cards,setCards] = useState([]);
    const [titleArr,setTitleArr] = useState([]);
+   const [totalPrice,setTotalPrice] = useState(0)
 
 
 useEffect(()=>{
@@ -15,11 +16,14 @@ useEffect(()=>{
     .then(data=> setCards(data));
 },[])
 
-const addTitle = (titleData) =>{
-        if(!titleArr.includes(titleData)){
-            setTitleArr([...titleArr,titleData])
+const addTitle = (data) =>{
+        if(!titleArr.includes(data.title)){
+            setTitleArr([...titleArr,data.title])
+            
+            setTotalPrice(data.fee + totalPrice)
+
         }else{
-            toast(`You have already added "${titleData}"`)
+            toast(`You have already added "${data.title}"`)
         }    
 }
 
@@ -32,7 +36,7 @@ const addTitle = (titleData) =>{
             }
         </div>
         <div className="w-[25%] bg-white rounded-lg px-4 py-5 h-[70vh] overflow-auto">
-        <Cart titleArr={titleArr}></Cart>
+        <Cart titleArr={titleArr} totalPrice={totalPrice}></Cart>
         <ToastContainer></ToastContainer>
         </div>
        </div>

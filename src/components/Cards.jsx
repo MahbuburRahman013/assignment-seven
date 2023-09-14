@@ -15,7 +15,7 @@ const Cards = ({card,addTitle}) => {
                         <p>Credit : {card.time_hour}hr</p>  
                     </div>
                 </div>
-                <button onClick={()=> addTitle(card.title)} className='bg-blue-500 w-full mt-4 text-white font-semibold py-1 rounded text-xl'>Select</button>
+                <button onClick={()=> addTitle(card)} className='bg-blue-500 w-full mt-4 text-white font-semibold py-1 rounded text-xl'>Select</button>
             </div>
     );
 };
