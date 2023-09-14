@@ -1,66 +1,66 @@
 [
     {
       "img_url": "https://i.ibb.co/qjs8TP5/Rectangle-2.png",
-      "title": "Introduction to Python Programming",
-      "description": "Learn the fundamentals of Python programming language and start building your own applications.",
-      "fee": 49.99,
-      "time_hour": 20
+      "title": "Introduction to OOP Python",
+      "description": "Programming (OOP) with Python. Unravel the fundamentals of OOP concepts and learn how to apply them in Python, setting the stage for writing clean and efficient code.",
+      "fee": 15000,
+      "time_hour": 4
     },
     {
       "img_url": "https://i.ibb.co/mv7bfmw/Rectangle-2-1.png",
-      "title": "Web Development with JavaScript and HTML/CSS",
-      "description": "Master the art of web development by learning JavaScript, HTML, and CSS.",
-      "fee": 59.99,
-      "time_hour": 30
+      "title": "Database (MySQL)",
+      "description": "Get a grasp on MySQL, a popular relational database system. Learn how to design, query, and manage databases effectively, essential skills for anyone working with data.",
+      "fee": 25000,
+      "time_hour": 5
     },
     {
       "img_url": "https://i.ibb.co/rHVX8Kd/Rectangle-2-2.png",
-      "title": "Data Science with Python and Machine Learning",
-      "description": "Dive into the world of data science, machine learning, and data analysis using Python.",
-      "fee": 79.99,
-      "time_hour": 40
+      "title": "Introduction to C Program..",
+      "description": "Explore the basics of C programming, a versatile language known for its performance and versatility. Begin your coding journey with this foundational language.",
+      "fee": 10000,
+      "time_hour": 3
     },
     {
       "img_url": "https://i.ibb.co/tL8ybLy/Rectangle-2-3.png",
-      "title": "Java Programming for Beginners",
-      "description": "Get started with Java programming and build a strong foundation in object-oriented programming.",
-      "fee": 49.99,
-      "time_hour": 25
+      "title": "Introduction to Algorithms",
+      "description": "Dive into the intriguing realm of algorithms, gaining essential problem-solving skills that extend beyond computer science.",
+      "fee": 35000,
+      "time_hour": 7
     },
     {
       "img_url": "https://i.ibb.co/GJ5xTCg/Rectangle-2-4.png",
-      "title": "Front-End Web Development with React",
-      "description": "Learn how to build dynamic and responsive web applications with React.",
-      "fee": 69.99,
-      "time_hour": 35
+      "title": "Introduction to C++ for DSA",
+      "description": "Harness C++ for Data Structures and Algorithms (DSA), leveraging its capabilities for efficient coding.",
+      "fee": 19000,
+      "time_hour": 6
     },
     {
       "img_url": "https://i.ibb.co/wwss8VF/Rectangle-2-5.png",
-      "title": "Backend Development with Node.js and Express",
-      "description": "Master server-side development with Node.js and Express framework.",
-      "fee": 59.99,
-      "time_hour": 30
+      "title": "Software Engineering",
+      "description": "Learn the principles of software engineering, covering project management, code maintenance, and collaborative development to ensure successful software projects.",
+      "fee": 23000,
+      "time_hour": 2
     },
     {
       "img_url": "https://i.ibb.co/TmT9pWk/Rectangle-2-6.png",
-      "title": "Mobile App Development with Flutter",
-      "description": "Create cross-platform mobile apps with Flutter and Dart programming language.",
-      "fee": 69.99,
-      "time_hour": 35
+      "title": "Problem-Solving Part",
+      "description": "Sharpen your problem-solving skills with insights and techniques applicable across technical domains.",
+      "fee": 18000,
+      "time_hour": 5
     },
     {
       "img_url": "https://i.ibb.co/56XYHkb/Rectangle-3.png",
-      "title": "Database Design and SQL Fundamentals",
-      "description": "Learn the essentials of database design and SQL programming.",
-      "fee": 39.99,
-      "time_hour": 15
+      "title": "Basic Data Structures",
+      "description": "Master fundamental data structures such as arrays, linked lists, and stacks, crucial for efficient data manipulation and algorithm implementation.",
+      "fee": 20000,
+      "time_hour": 3
     },
     {
       "img_url": "https://i.ibb.co/Fg6Gy34/Rectangle-3-1.png",
-      "title": "Machine Learning for Image Recognition",
-      "description": "Explore advanced machine learning techniques for image recognition and computer vision.",
-      "fee": 89.99,
-      "time_hour": 50
+      "title": "AWS, Cloud Computing",
+      "description": "Demystify cloud computing and Amazon Web Services (AWS), empowering you to leverage the cloud's capabilities for deploying, managing, and scaling applications.",
+      "fee": 28000,
+      "time_hour": 4
     }
   ]
   
