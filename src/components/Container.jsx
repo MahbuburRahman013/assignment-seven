@@ -35,7 +35,7 @@ const Container = () => {
       
     } else {
       toast(
-        `"Total Credit Hour" is over!!`
+        `This course lasts longer than the specified duration!!`
       );
     }
   };
