@@ -1,6 +1,6 @@
 #  Questions and ans: 
 
-- Add at least 3 Project features 
+### Add at least 3 Project features 
 
  ## Ans:
 - User can purchase any course they want.
@@ -8,10 +8,10 @@
 - User can see the total price of the course.
 
 
-- Discuss how you managed the state in your assignment project.
+### Discuss how you managed the state in your assignment project.
 
 ## Ans:
-- In my assignment project, I used some techniques and libraries to manage state effectively in  this application. State management is crucial in React because it helps maintain the data flow and ensures that components stay synchronized. Here are the key approaches I employed:
+In my assignment project, I used some techniques and libraries to manage state effectively in  this application. State management is crucial in React because it helps maintain the data flow and ensures that components stay synchronized. Here are the key approaches I employed:
 
 For managing local component-level state, I used the useState hook. It allows me to declare and manage state variables within functional components. This is suitable for handling UI-related state changes and user interactions within a single component.
 
