@@ -1,10 +1,8 @@
-# Course-Registration
-
-##  Questions and ans: 
+#  Questions and ans: 
 
 - Add at least 3 Project features 
-Ans:
-- User can peruse any course they want.
+- ## Ans:
+- User can purchase any course they want.
 - User cannot purchase more than 20 hours.
 - User can see the total price of the course.
 
