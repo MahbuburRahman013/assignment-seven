@@ -19,16 +19,23 @@ const Container = () => {
 
   const addTitle = (data) => {
     const newHour = addHour + data.time_hour;
-    if (!titleArr.includes(data.title) && newHour <= 20) {
-      setTitleArr([...titleArr, data.title]);
-
-      setTotalPrice(data.fee + totalPrice);
-
-      setAddHour(newHour);
+    if (newHour <= 20) {
+      if(!titleArr.includes(data.title)){
+        setTitleArr([...titleArr, data.title]);
+        setTotalPrice(data.fee + totalPrice);
+        setAddHour(newHour);
       setLessHour(lessHour - data.time_hour);
+      }
+      else {
+        toast(
+         
+          `You have already added "${data.title}"!!`
+        );
+      }
+      
     } else {
       toast(
-        `You have already added "${data.title}" or "Total Credit Hour" is over!!`
+        `"Total Credit Hour" is over!!`
       );
     }
   };
